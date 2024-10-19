@@ -42,7 +42,7 @@ jobs:
       ### Prisma Cloud vulnerabilities and compliance control (Hard fail is set into Prisma Cloud Console)
       - name: Prisma Cloud image scan
         id: scan
-        uses: PaloAltoNetworks/prisma-cloud-scan@v1.5
+        uses: PaloAltoNetworks/prisma-cloud-scan@v1.6.7
         env:
           IMAGE_NAME: ${{ env.ECR_REPOSITORY }}:${{ github.sha }}
         with:
