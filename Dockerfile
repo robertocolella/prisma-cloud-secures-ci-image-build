@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:12
 #FROM node:latest
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
